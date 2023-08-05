@@ -20,12 +20,12 @@ export const Projects = () => {
       <div style={{ borderBottom: "2px solid #00abf0", width: "80px", marginBottom: "10px", marginTop: "5px", borderBottomRightRadius: "5px", borderTopRightRadius: "5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >What I Do</p>
       <div className='projectMainContainer' >
-        <div className='topBox'>
+        <div className='topBox' class="project-card" >
           <div >
             <img src={baillie} alt="" className='projectImages' />
           </div>
           <div>
-            <h1>Bialetti</h1>
+            <h1 class="project-title"  >Bialetti</h1>
             <p>Bialetti Italia is a captivating web application that pays homage to the renowned Italian brand, Bialetti, famous for its exceptional coffee machines, cookware, and small kitchen appliances.</p>
             <h4>Tech Stack :</h4>
             <div className='projectSkills' >
@@ -38,10 +38,10 @@ export const Projects = () => {
         </div>
         <div className='topBox' >
           <div >
-            <img src={overstock} alt="" className='projectImages' />
+            <img src={overstock} alt="" className='projectImages' class="project-card" />
           </div>
           <div>
-            <h1>Overstock</h1>
+            <h1 class="project-title" >Overstock</h1>
             <p>Overstock.com, Inc. is an American internet retailer selling primarily furniture headquartered in Midvale, Utah, near Salt Lake City. The company sells home decor, furniture, bedding, and many other goods that are closeout merchandise.</p>
             <h4>Tech Stack :</h4>
             <div className='projectSkills' >
@@ -54,10 +54,10 @@ export const Projects = () => {
         </div>
         <div className='topBox' >
           <div >
-            <img src={alcazar} alt="" className='projectImages' />
+            <img src={alcazar} alt="" className='projectImages' class="project-card" />
           </div>
           <div>
-            <h1>Alcazar</h1>
+            <h1 class="project-title" >Alcazar</h1>
            <p>Alcazar is one of the most used travel agency website.
            Discover a world of convenience and luxury
              as we offer a comprehensive array of facilities to elevate every aspect of your getaway.

@@ -13,7 +13,7 @@ export const About = () => {
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >Who Am I</p>
       <div className='about_Top' >
         <div className='Image_Div'>
-          <img className='image' src={image3} alt="ProfilePicx" />
+          <img className='image' src={image3} alt="ProfilePicx" class="home-img" />
         </div>
         <div >
           <h1 id="user-detail-name">Gourav Prasad</h1>

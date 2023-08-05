@@ -26,7 +26,7 @@ export const Contact = () => {
           </div>
           <div className='details_Div' >
             <div><p>EMAIL</p>
-              <p>prasadgourav46@gmail.com</p>
+              <p id="contact-email" >prasadgourav46@gmail.com</p>
             </div>
             <div className='icon_Contact' >
               <AiOutlineMail />
@@ -34,7 +34,7 @@ export const Contact = () => {
           </div>
           <div className='details_Div' >
             <div><p>PHONE</p>
-              <p>+91 94266 89899</p>
+              <p  id="contact-phone" >+91 94266 89899</p>
             </div>
             <div className='icon_Contact' >
               <TiPhoneOutline />

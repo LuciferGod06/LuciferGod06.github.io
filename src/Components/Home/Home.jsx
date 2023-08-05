@@ -38,15 +38,15 @@ export const Home = () => {
 
 
         <div className='icon_Div'>
-          <a href="https://github.com/LuciferGod06"  ><FaGithub /></a>
+          <a href="https://github.com/LuciferGod06"  id="contact-github" ><FaGithub /></a>
           <a href="https://twitter.com/prasadgourav46"><FaSquareTwitter /></a>
-          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/"  id="contact-linkedin" ><FaLinkedin /></a>
           <a href="https://discord.com/channels/@me"><FaDiscord /></a>
         </div>
 
       </div>
       <div className='image_Div' >
-        <img width={"300px"} src={image3} alt="profile photo" />
+        <img width={"300px"} src={image3} alt="profile photo" class="home-img" />
       </div>
     </div>
   )
