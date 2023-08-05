@@ -28,7 +28,7 @@ export const Home = () => {
     <div className='Top_Div' id='home' >
       <div >
         <h3 >Hello, It's Me</h3>
-        <h1 >Gourav Prasad !</h1>
+        <h1   >Gourav Prasad !</h1>
 
         <h3>And I'm a <span ref={element}  ></span></h3>
         <br></br>
