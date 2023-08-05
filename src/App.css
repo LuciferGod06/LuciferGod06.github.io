@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  background-color: #081b29;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

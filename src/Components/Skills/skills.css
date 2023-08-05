@@ -1,0 +1,18 @@
+.icon_Div > div > img {
+    width: 80px;
+}
+.icon_Div {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+    font-size: 18px;
+    align-items: center;
+    /* border: 1px solid; */
+    /* text-align: center; */
+}
+.icon_Div div{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5%;
+}

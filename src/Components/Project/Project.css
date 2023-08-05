@@ -1,0 +1,29 @@
+
+.topBox{
+    display: flex; 
+    gap: 30px;
+    margin-bottom: 7%;
+    /* border: 1px solid; */
+
+}
+
+.projectImages{
+    width: 650px;
+    height: 105%;
+    border-radius: 5px;
+}
+
+.topBox > div:nth-of-type(2){
+    text-align: left;
+
+}
+
+.projectSkills img{
+    width: 50px;
+
+}
+.projectSkills{
+    display: flex;
+    gap: 40px;
+}
+

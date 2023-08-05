@@ -1,0 +1,66 @@
+
+
+.Top_Div{
+    /* text-align: center; */
+    padding:10% 10% 1% 10%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Top_Div div:nth-of-type(1){
+    /* border: 1px solid wheat; */
+    width: 40%;
+
+}
+.Top_Div h1{
+    font-size: 45px;
+    font-weight: 550;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Top_Div span{
+    color:#00abf0;
+}
+.Top_Div  h3, span{
+font-size: 24px;
+margin: 0px;
+padding: 0px;
+font-weight: 400;
+}
+
+
+.icon_Div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon_Div a{
+    font-size: 30px;
+}
+
+
+.image_Div img{
+    border-radius: 3%;
+    /* border: 0.5px solid #00abf0; */
+    /* box-shadow: rgba(100, 149, 255, 0.911) 1px 0px 1px 0px, rgba(119, 118, 118, 0.925) 1px 0px 5px 1px; */
+    box-shadow: #3c327a96 0px 30px 99px;
+    width: 330px;
+    /* padding-right: 30px; */
+    margin-right: 20px;
+}
+
+.Top_Div button{
+    padding: 13px 5%;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color:#00abf0;
+    color: black;
+    font-weight: 540;
+}
