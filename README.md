@@ -1,1 +1,1 @@
-LuciferGod06.github.io
+luciferGod06.github.io
