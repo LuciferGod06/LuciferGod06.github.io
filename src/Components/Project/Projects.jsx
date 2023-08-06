@@ -20,15 +20,15 @@ export const Projects = () => {
       <div style={{ borderBottom: "2px solid #00abf0", width: "80px", marginBottom: "10px", marginTop: "5px", borderBottomRightRadius: "5px", borderTopRightRadius: "5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >What I Do</p>
       <div className='projectMainContainer' >
-        <div className='topBox'  >
+        <div className='topBox'  class="project-card" >
           <div >
             <img src={baillie} alt="" className='projectImages' />
           </div>
           <div>
             <h1 class="project-title"  >Bialetti</h1>
-            <p>Bialetti Italia is a captivating web application that pays homage to the renowned Italian brand, Bialetti, famous for its exceptional coffee machines, cookware, and small kitchen appliances.</p>
-            <h4>Tech Stack :</h4>
-            <div className='projectSkills' >
+            <p class="project-description" >Bialetti Italia is a captivating web application that pays homage to the renowned Italian brand, Bialetti, famous for its exceptional coffee machines, cookware, and small kitchen appliances.</p>
+            <h4 class="project-tech-stack" >Tech Stack :</h4>
+            <div  className='projectSkills' >
               <img src={react} alt="react" />
               <img src={redux} alt="redux" />
               <img src={charka} alt="chakra" />
@@ -42,8 +42,8 @@ export const Projects = () => {
           </div>
           <div>
             <h1 class="project-title" >Overstock</h1>
-            <p>Overstock.com, Inc. is an American internet retailer selling primarily furniture headquartered in Midvale, Utah, near Salt Lake City. The company sells home decor, furniture, bedding, and many other goods that are closeout merchandise.</p>
-            <h4>Tech Stack :</h4>
+            <p class="project-description" >Overstock.com, Inc. is an American internet retailer selling primarily furniture headquartered in Midvale, Utah, near Salt Lake City. The company sells home decor, furniture, bedding, and many other goods that are closeout merchandise.</p>
+            <h4 class="project-tech-stack" >Tech Stack :</h4>
             <div className='projectSkills' >
               <img src={html} alt="react" />
               <img src={css} alt="redux" />
@@ -58,13 +58,13 @@ export const Projects = () => {
           </div>
           <div>
             <h1 class="project-title" >Alcazar</h1>
-           <p>Alcazar is one of the most used travel agency website.
+           <p class="project-description" >Alcazar is one of the most used travel agency website.
            Discover a world of convenience and luxury
              as we offer a comprehensive array of facilities to elevate every aspect of your getaway.
               From handpicked accommodations to curated itineraries, we specialize in crafting unforgettable 
               vacations.
              </p>
-            <h4>Tech Stack :</h4>
+            <h4 class="project-tech-stack" >Tech Stack :</h4>
             <div className='projectSkills' >
               <img src={react} alt="react" />
               <img src={redux} alt="redux" />
