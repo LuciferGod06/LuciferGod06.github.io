@@ -1,5 +1,5 @@
 
-.topBox{
+.project-card{
     display: flex; 
     gap: 30px;
     margin-bottom: 7%;
@@ -13,7 +13,7 @@
     border-radius: 5px;
 }
 
-.topBox > div:nth-of-type(2){
+.project-card > div:nth-of-type(2){
     text-align: left;
 
 }

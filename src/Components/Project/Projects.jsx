@@ -20,7 +20,7 @@ export const Projects = () => {
       <div style={{ borderBottom: "2px solid #00abf0", width: "80px", marginBottom: "10px", marginTop: "5px", borderBottomRightRadius: "5px", borderTopRightRadius: "5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >What I Do</p>
       <div className='projectMainContainer' >
-        <div className='topBox'  class="project-card" >
+        <div   class="project-card" >
           <div >
             <img src={baillie} alt="" className='projectImages' />
           </div>
@@ -36,7 +36,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='topBox' >
+        <div  class="project-card" >
           <div >
             <img src={overstock} alt="" className='projectImages'/>
           </div>
@@ -52,7 +52,7 @@ export const Projects = () => {
           </div>
 
         </div>
-        <div className='topBox' >
+        <div   class="project-card">
           <div >
             <img src={alcazar} alt="" className='projectImages'  />
           </div>
