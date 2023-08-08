@@ -3,7 +3,7 @@ import Typed from 'typed.js'
 import "./Home.css"
 import { FaGithub, FaSquareTwitter, FaLinkedin, FaDiscord } from "react-icons/fa6";
 import image3 from './image3.png'
-import image4 from './image4.jpg'
+import pdf from '../Gourav_Prasad_Resume.pdf'
 
 
 export const Home = () => {
@@ -24,6 +24,10 @@ export const Home = () => {
     };
   }, []);
 
+  const handleDownload = ()=>{
+    window.open('https://drive.google.com/file/d/1n9rZ2it582R0KadAXlK9qTGQd1PydY13/view?usp=sharing');
+  }
+
   return (
     <div className='Top_Div' id='home' >
       <div >
@@ -32,16 +36,16 @@ export const Home = () => {
 
         <h3>And I'm a <span ref={element}  ></span></h3>
         <br></br>
-        <a href='https://drive.google.com/file/d/1S5dX1O2SYdDBfpXgtOooaGxMmq5q4pWb/view?usp=sharing'>
-          <button > Download Resume</button>
+        <a href={pdf}  target={'_blank'}  download={'Gourav_Prasad_Resume'}>
+          <button onClick={handleDownload}  id="resume-button-2" > Download Resume</button>
         </a>
 
 
         <div className='icon_Div'>
-          <a href="https://github.com/LuciferGod06"  id="contact-github" ><FaGithub /></a>
-          <a href="https://twitter.com/prasadgourav46"><FaSquareTwitter /></a>
-          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/"  id="contact-linkedin" ><FaLinkedin /></a>
-          <a href="https://discord.com/channels/@me"><FaDiscord /></a>
+          <a href="https://github.com/LuciferGod06" target='_blank' id="contact-github" ><FaGithub /></a>
+          <a href="https://twitter.com/prasadgourav46" target='_blank' ><FaSquareTwitter /></a>
+          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/" target='_blank'  id="contact-linkedin" ><FaLinkedin /></a>
+          <a href="https://discord.com/channels/@me" target='_blank' ><FaDiscord /></a>
         </div>
 
       </div>

@@ -2,8 +2,17 @@ import React from 'react'
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 
+import pdf from '../Gourav_Prasad_Resume.pdf'
+
 
 export const Navbar = () => {
+
+  
+  const handleDownload = ()=>{
+    window.open('https://drive.google.com/file/d/1n9rZ2it582R0KadAXlK9qTGQd1PydY13/view?usp=sharing');
+  }
+
+
   return (
     <div className='nav_Top' id="nav-menu" >
       <div style={{  fontWeight: "600"}}  >
@@ -16,7 +25,7 @@ export const Navbar = () => {
           <li class="nav-link skills" > <HashLink style={{ textDecoration: "none" }}  to='#skills'>Skills  </HashLink></li>
           <li class="nav-link projects" > <HashLink style={{ textDecoration: "none" }}  to='#projects'>Project  </HashLink></li>
           <li class="nav-link contact" >  <HashLink style={{ textDecoration: "none" }}  to='#contact'>Contact </HashLink></li>
-          <li class="nav-link resume" >  <HashLink style={{ textDecoration: "none" }} >Resume </HashLink></li>
+          <li class="nav-link resume" >  <HashLink  id="resume-button-1"  style={{ textDecoration: "none" }} href={pdf} target={'_blank'} onClick={handleDownload} rel="noreferrer" download={'Gourav_Prasad_Resume'}  >  Resume </HashLink></li>
         </ul>
       </div>
     </div>

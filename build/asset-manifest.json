@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c82aec9.css",
-    "main.js": "/static/js/main.8811ed38.js",
+    "main.css": "/static/css/main.5cbbdd26.css",
+    "main.js": "/static/js/main.37444ecb.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/alcazar.png": "/static/media/alcazar.8d7b56decbe431388e13.png",
     "static/media/overstock.png": "/static/media/overstock.8633ef22c482d4360d55.png",
     "static/media/image4.jpg": "/static/media/image4.a2f190f278fc94f413ac.jpg",
     "static/media/image3.png": "/static/media/image3.ba6931e929dd1aaf96fd.png",
+    "static/media/portfolio.png": "/static/media/portfolio.ff0aa2693b5d8a034cad.png",
     "static/media/baliee.PNG": "/static/media/baliee.89ea85e4353b864e478f.PNG",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
@@ -17,12 +18,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
     "index.html": "/index.html",
-    "main.6c82aec9.css.map": "/static/css/main.6c82aec9.css.map",
-    "main.8811ed38.js.map": "/static/js/main.8811ed38.js.map",
+    "main.5cbbdd26.css.map": "/static/css/main.5cbbdd26.css.map",
+    "main.37444ecb.js.map": "/static/js/main.37444ecb.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c82aec9.css",
-    "static/js/main.8811ed38.js"
+    "static/css/main.5cbbdd26.css",
+    "static/js/main.37444ecb.js"
   ]
 }

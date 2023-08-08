@@ -6,6 +6,7 @@ import { Navbar } from './Components/Navbar/Navbar';
 import { Skills } from './Components/Skills/Skills';
 import { Contact } from './Components/Contact/Contact';
 import { Projects } from './Components/Project/Projects';
+import { Github } from './Components/Github/Github';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Github/>
      <Contact/>
 
 
