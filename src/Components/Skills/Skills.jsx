@@ -18,7 +18,7 @@ export const Skills = () => {
       <h1 style={{marginBottom:"0"}} >Skills </h1>
       <div style={{borderBottom:"2px solid #00abf0",width:"60px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p style={{marginTop:"0"}}>What I know</p>
-      <div className='icon_Div'  >
+      <div className='icon_Div'>
         <div class="skills-card" ><img class="skills-card-img" src={html5} alt="csa" />
           <p class="skills-card-name" >HTML</p>
         </div>
@@ -31,7 +31,7 @@ export const Skills = () => {
         <div class="skills-card" ><img class="skills-card-img" src={java} alt="js" />
           <p class="skills-card-name">JAVA</p>
         </div>
-        <div class="skills-card" ><img class="skills-card-img" src={mern} alt="mern" />
+        <div  class="skills-card" ><img class="skills-card-img" src={mern} alt="mern" />
           <p class="skills-card-name" >MERN</p>
         </div>
         <div class="skills-card" ><img class="skills-card-img" src={redux} alt="redux" />

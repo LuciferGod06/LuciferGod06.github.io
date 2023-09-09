@@ -24,9 +24,18 @@ export const Home = () => {
     };
   }, []);
 
-  const handleDownload = ()=>{
-    window.open('https://drive.google.com/file/d/1n9rZ2it582R0KadAXlK9qTGQd1PydY13/view?usp=sharing');
+  const handleDownload = () => {
+    window.open('https://drive.google.com/file/d/1IFg0Jb3JQMFfd4Wxmus-3plSkPLt5d8l/view?usp=sharing');
   }
+  // const handleDownload = () => {
+  //   const link = document.createElement('a');
+  //   link.download = 'Gourav_Prasad_Resume.pdf';
+  //   link.href = {pdf};
+  //   document.body.appendChild(link)
+  //   link.click();
+  //   link.remove();
+  // };
+
 
   return (
     <div className='Top_Div' id='home' >
@@ -36,21 +45,23 @@ export const Home = () => {
 
         <h3>And I'm a <span ref={element}  ></span></h3>
         <br></br>
-        <a href={pdf}  target={'_blank'}  download={'Gourav_Prasad_Resume'}>
-          <button onClick={handleDownload}  id="resume-button-2" > Download Resume</button>
+        <a href={pdf}  target={'_blank'} rel="noreferrer" download={'Gourav_Prasad_Resume'}>
+          <button onClick={handleDownload}  id="resume-button-1" > Download Resume</button>
         </a>
-
+        {/* <a href={pdf} target={"_blank"}  rel='noreferrer' >
+          <button id="resume-button-1" onClick={handleDownload}>View Resume</button>
+        </a> */}
 
         <div className='icon_Div'>
-          <a href="https://github.com/LuciferGod06" target='_blank' id="contact-github" ><FaGithub /></a>
-          <a href="https://twitter.com/prasadgourav46" target='_blank' ><FaSquareTwitter /></a>
-          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/" target='_blank'  id="contact-linkedin" ><FaLinkedin /></a>
-          <a href="https://discord.com/channels/@me" target='_blank' ><FaDiscord /></a>
+          <a href="https://github.com/LuciferGod06" target='_blank' rel="noreferrer" id="contact-github" ><FaGithub /></a>
+          <a href="https://twitter.com/prasadgourav46" target='_blank' rel="noreferrer"><FaSquareTwitter /></a>
+          <a href="https://www.linkedin.com/in/gourav-prasad-388708155/" target='_blank' rel="noreferrer" id="contact-linkedin" ><FaLinkedin /></a>
+          <a href="https://discord.com/channels/@me" target='_blank' rel="noreferrer"><FaDiscord /></a>
         </div>
 
       </div>
       <div className='image_Div' >
-        <img width={"300px"} src={image3} alt="profile photo" class="home-img" />
+        <img width={"300px"} src={image3} alt="profile " class="home-img" />
       </div>
     </div>
   )

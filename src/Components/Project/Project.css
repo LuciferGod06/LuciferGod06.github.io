@@ -27,3 +27,23 @@
     gap: 40px;
 }
 
+.ProjectButton > button {
+    padding: 13px 5%;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color:#00abf0;
+    color: black;
+    font-weight: 540;
+}
+.ProjectButton{
+    display: flex;
+    gap: 13%;
+    margin-top: 7%;
+}
+
+.ProjectButton > button > a{
+    text-decoration: none;
+    background: none;
+    color: black;
+}

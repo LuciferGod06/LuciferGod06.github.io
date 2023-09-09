@@ -25,7 +25,7 @@ export const Navbar = () => {
           <li class="nav-link skills" > <HashLink style={{ textDecoration: "none" }}  to='#skills'>Skills  </HashLink></li>
           <li class="nav-link projects" > <HashLink style={{ textDecoration: "none" }}  to='#projects'>Project  </HashLink></li>
           <li class="nav-link contact" >  <HashLink style={{ textDecoration: "none" }}  to='#contact'>Contact </HashLink></li>
-          <li class="nav-link resume" >  <HashLink  id="resume-button-1"  style={{ textDecoration: "none" }} href={pdf} target={'_blank'} onClick={handleDownload} rel="noreferrer" download={'Gourav_Prasad_Resume'}  >  Resume </HashLink></li>
+          <li class="nav-link resume" >  <HashLink   style={{ textDecoration: "none" }} download={pdf} onClick={handleDownload} id="resume-button-1" rel="noreferrer" > Resume  </HashLink></li>
         </ul>
       </div>
     </div>

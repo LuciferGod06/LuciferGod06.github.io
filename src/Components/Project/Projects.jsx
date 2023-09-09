@@ -1,8 +1,8 @@
 import React from 'react'
-import baillie from './baliee.PNG'
-import overstock from './overstock.png'
-import alcazar from './alcazar.png'
-import portfolio from './portfolio.png'
+import baillie from './Images/baliee.PNG'
+import overstock from './Images/overstock.png'
+import alcazar from './Images/alcazar.png'
+import portfolio from './Images/portfolio.png'
 
 
 import redux from '../Skills/image/redux.png';
@@ -37,10 +37,16 @@ export const Projects = () => {
               <img src={charka} alt="chakra" />
               <img src={js} alt="js" />
             </div>
+            <div className='ProjectButton' >
+            <button ><a class="project-github-link" href="https://github.com/LuciferGod06/Bialetti_Project" target='_blank'rel="noreferrer"  >Github Link</a></button>
+            <button><a class="project-deployed-link" href="https://bialetti-new-clone-project.vercel.app" target='_blank'rel="noreferrer"  >View</a></button>
+
           </div>
+          </div>
+          
         </div>
         <div  class="project-card" >
-          <div >
+          <div >  
             <img src={overstock} alt="" className='projectImages'/>
           </div>
           <div>
@@ -52,6 +58,11 @@ export const Projects = () => {
               <img src={css} alt="redux" />
               <img src={js} alt="js" />
             </div>
+            <div className='ProjectButton' >
+            <button ><a class="project-github-link" href="https://github.com/LuciferGod06/OverStock" target='_blank'rel="noreferrer"  >Github Link</a></button>
+            <button><a class="project-deployed-link" href="https://fastidious-griffin-dd67bc.netlify.app" target='_blank'rel="noreferrer"  >View</a></button>
+
+          </div>
           </div>
 
         </div>
@@ -74,6 +85,11 @@ export const Projects = () => {
               <img src={charka} alt="chakra" />
               <img src={js} alt="js" />
             </div>
+            <div className='ProjectButton' >
+            <button ><a class="project-github-link" href="https://github.com/LuciferGod06/Alcazar" target='_blank'rel="noreferrer"  >Github Link</a></button>
+            <button><a class="project-deployed-link" href="https://alcazar.vercel.app/" target='_blank'rel="noreferrer"  >View</a></button>
+
+          </div>
           </div>
 
         </div>
@@ -95,6 +111,12 @@ export const Projects = () => {
               <img src={charka} alt="chakra" />
               <img src={js} alt="js" />
             </div>
+            <div className='ProjectButton' >
+            
+            <button ><a class="project-github-link" href="https://github.com/LuciferGod06/Portfolio_Gourav" target='_blank'rel="noreferrer"  >Github Link</a></button>
+            <button><a class="project-deployed-link" href="https://64ce7cd4be3d0c4efa0eb0e8--whimsical-gingersnap-1e7176.netlify.app/" target='_blank'rel="noreferrer"  >View</a></button>
+
+          </div>
           </div>
 
         </div>

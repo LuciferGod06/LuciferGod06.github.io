@@ -37,11 +37,12 @@ font-weight: 400;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid; */
     
 }
 
 .icon_Div a{
-    font-size: 30px;
+    font-size: 33px;
 }
 
 

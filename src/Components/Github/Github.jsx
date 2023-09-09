@@ -19,7 +19,7 @@ export const Github = () => {
 
                 <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=LuciferGod06&theme=dark&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" width={"50%"} alt="github-streak-stats" />
                 <img id="github-top-langs" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=LuciferGod06&langs_count=10&layout=compact&theme=react&border_color=f0ffff&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866%22%20height=%22192px%22%20width=%2249.5%%22" alt="github-top-langs" width={"50%"} />
-                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=LuciferGod06&show_icons=true&theme=dark" width={"50%"} alt="github-stats-card" />
+                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=LuciferGod06&show_icons=false&theme=dark" width={"50%"} alt="github-stats-card" />
 
             </div>
 

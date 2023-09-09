@@ -1,18 +1,31 @@
-.icon_Div > div > img {
-    width: 80px;
+.skills-card-img {
+    width: 55%;
 }
 .icon_Div {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 30px;
+    display: flex;
+    /* grid-template-columns: repeat(6,1fr); */
+    gap: 2rem;
+    flex-wrap: wrap;
     font-size: 18px;
     align-items: center;
+    justify-content: center;
+    
+    
     /* border: 1px solid; */
     /* text-align: center; */
 }
-.icon_Div div{
+.icon_Div .skills-card {
     padding: 10px;
+    flex : 0 0 10rem;
     text-align: center;
-    border: 1px solid;
+    border: 1px solid #081b29;
     border-radius: 5%;
+    cursor: pointer; 
+    transition: .4s ease;
+    /* object-fit: cover; */
+}
+
+ .icon_Div .skills-card:hover{
+        border-color: #00abf0;;
+        transform: scale(1.02);
 }
