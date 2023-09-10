@@ -18,7 +18,7 @@ export const About = () => {
 
 
   return (
-    <div id='about'  class="about section" style={{ padding: "50px 10% 0 10%" }}>
+    <div id='about'  class="about section" style={{ padding: "9% 10% 0 10%" }}>
       <h1 style={{ textAlign: "left", marginBottom: "0px" }} >About Me</h1>
       <div style={{borderBottom:"2px solid #00abf0",width:"110px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >Who Am I</p>

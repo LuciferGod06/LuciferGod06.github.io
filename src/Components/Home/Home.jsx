@@ -59,9 +59,9 @@ export const Home = () => {
           <a href="https://discord.com/channels/@me" target='_blank' rel="noreferrer"><FaDiscord /></a>
         </div>
 
-      </div>
-      <div className='image_Div' >
-        <img width={"300px"} src={image3} alt="profile " class="home-img" />
+      </div> 
+      <div className='image_Div'  data-aos="fade-down"  data-aos-duration="1000" >
+        <img  src={image3} alt="profile " class="home-img" />
       </div>
     </div>
   )

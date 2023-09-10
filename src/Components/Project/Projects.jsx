@@ -18,7 +18,7 @@ import './Project.css'
 
 export const Projects = () => {
   return (
-    <div id="projects" style={{ padding: "50px 10% 0 10%" }} >
+    <div id="projects" style={{ padding: "8% 10% 0 10%" }} >
       <h1 style={{ textAlign: 'left', marginBottom: '0px' }}>Project</h1>
       <div style={{ borderBottom: "2px solid #00abf0", width: "80px", marginBottom: "10px", marginTop: "5px", borderBottomRightRadius: "5px", borderTopRightRadius: "5px" }}  ></div>
       <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >What I Do</p>

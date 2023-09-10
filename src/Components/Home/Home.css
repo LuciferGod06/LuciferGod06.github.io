@@ -2,7 +2,7 @@
 
 .Top_Div{
     /* text-align: center; */
-    padding:10% 10% 1% 10%;
+    padding:12% 10% 1% 10%;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 .Top_Div div:nth-of-type(1){
     /* border: 1px solid wheat; */
-    width: 40%;
+    width: 50%;
 
 }
 .Top_Div h1{
@@ -42,20 +42,46 @@ font-weight: 400;
 }
 
 .icon_Div a{
-    font-size: 33px;
+    font-size: 37px;
 }
 
+
+.icon_Div a{
+    transition: transform 0.7s ease;
+}
+
+.icon_Div  a:hover{
+    
+    transform:  rotate(-360deg);
+}
 
 .image_Div img{
-    border-radius: 3%;
-    /* border: 0.5px solid #00abf0; */
+    border-radius: 8%;
+    border: 0.5px solid #00abf0;
     /* box-shadow: rgba(100, 149, 255, 0.911) 1px 0px 1px 0px, rgba(119, 118, 118, 0.925) 1px 0px 5px 1px; */
-    box-shadow: #3c327a96 0px 30px 99px;
-    width: 330px;
+    /* box-shadow: #3c327a96 0px 30px 99px; */
+    width: 310px;
     /* padding-right: 30px; */
     margin-right: 20px;
+    float: left;
+    animation: floatImage 5s ease infinite;
 }
+/* .image_Div{
+    
+} */
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
 
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 .Top_Div button{
     padding: 13px 5%;
     font-size: 18px;

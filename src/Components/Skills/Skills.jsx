@@ -14,7 +14,7 @@ import charka from './image/images.jpeg'
 
 export const Skills = () => {
   return (
-    <div id='skills' style={{ padding: "5% 10% 2% 10%", textAlign: "left" }} >
+    <div id='skills' style={{ padding: "10% 10% 2% 10%", textAlign: "left" }} >
       <h1 style={{marginBottom:"0"}} >Skills </h1>
       <div style={{borderBottom:"2px solid #00abf0",width:"60px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p style={{marginTop:"0"}}>What I know</p>
