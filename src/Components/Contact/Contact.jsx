@@ -10,7 +10,8 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 export const Contact = () => {
   return (
-    <div  id='contact' >
+    <div  id='contact' data-aos="fade-right"
+    data-aos-duration="2000"  >
       <h1  >Contact Me</h1>
       <div style={{borderBottom:"2px solid #00abf0",width:"120px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
       <p>Let's Talk</p>
@@ -45,12 +46,12 @@ export const Contact = () => {
               <p>+91 94266 89899</p>
             </div>
             <div className='icon_Contact' >
-              <BsWhatsapp />
+              <BsWhatsapp/>
             </div>
           </div>
         </div>
         <div>
-          <img width={"730px"} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="COntact_Pic" />
+          <img width={"720px"} style={{borderRadius:"5px"}} src="https://www.techuz.com/blog/wp-content/uploads/2018/08/How-to-hire-web-developers-from-India.gif" alt="COntact_Pic" />
         </div>
       </div>
     </div>

@@ -15,10 +15,10 @@ import charka from './image/images.jpeg'
 export const Skills = () => {
   return (
     <div id='skills' style={{ padding: "10% 10% 2% 10%", textAlign: "left" }} >
-      <h1 style={{marginBottom:"0"}} >Skills </h1>
-      <div style={{borderBottom:"2px solid #00abf0",width:"60px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
-      <p style={{marginTop:"0"}}>What I know</p>
-      <div className='icon_Div'>
+      <h1 data-aos="zoom-in" data-aos-duration='1000' style={{marginBottom:"0"}} >Skills </h1>
+      <div data-aos="zoom-in" data-aos-duration='1000' style={{borderBottom:"2px solid #00abf0",width:"60px" ,marginBottom:"10px", marginTop:"5px",borderBottomRightRadius:"5px",borderTopRightRadius:"5px" }}  ></div>
+      <p data-aos="zoom-in" data-aos-duration='1000'style={{marginTop:"0"}}>What I know</p>
+      <div className='icon_Div' data-aos="fade-up" data-aos-duration="2000"  >
         <div class="skills-card" ><img class="skills-card-img" src={html5} alt="csa" />
           <p class="skills-card-name" >HTML</p>
         </div>

@@ -1,20 +1,26 @@
-.nav_Top{
+.nav_Top {
     position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     align-items: center;
     z-index: 100;
-    padding: 10px 10%;
+    
+    padding: 20px 10%;
+
+ 
 
 }
-.nav_Item{
+
+
+
+
+.nav_Item {
     font-size: 17px;
     font-weight: 500;
 }
-.nav_Item > ul{
+
+.nav_Item>ul {
     display: flex;
     gap: 30px;
     list-style: none;
@@ -22,6 +28,29 @@
     cursor: default;
     transition: .3s;
 }
+
 a:hover {
     color: #00abf0;
+}
+
+
+
+.DrawerNavbar{
+
+    position: relative;
+}
+
+@media only screen and (max-width : 720px){
+    .nav_Item{
+display: none;
+    }
+    
+
+}
+@media only screen and (min-width : 720px){
+    .DrawerNavbar{
+display: none;
+    }
+    
+
 }

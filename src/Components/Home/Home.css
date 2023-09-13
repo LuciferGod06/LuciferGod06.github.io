@@ -6,7 +6,7 @@
     text-align: left;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 .Top_Div div:nth-of-type(1){
     /* border: 1px solid wheat; */
@@ -28,26 +28,30 @@
 .Top_Div  h3, span{
 font-size: 24px;
 margin: 0px;
+margin-bottom: -4px;
 padding: 0px;
 font-weight: 400;
+
 }
+
 
 
 .icon_Div{
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* border: 1px solid; */
     
 }
 
 .icon_Div a{
-    font-size: 37px;
+    font-size: 38px;
+    margin-right: -10px;
 }
-
 
 .icon_Div a{
     transition: transform 0.7s ease;
+
 }
 
 .icon_Div  a:hover{
@@ -88,6 +92,16 @@ font-weight: 400;
     border: none;
     border-radius: 15px;
     background-color:#00abf0;
+    /* background-color: white; */
     color: black;
-    font-weight: 540;
+    font-weight: 540; 
+    margin-bottom: 6%;
+
 }
+
+
+
+
+
+/* Resposiveness  */
+

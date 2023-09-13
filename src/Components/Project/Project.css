@@ -1,49 +1,94 @@
 
 .project-card{
     display: flex; 
-    gap: 30px;
+    gap: 40px;
     margin-bottom: 7%;
+    /* align-items: center; */
+    justify-content: center;
     /* border: 1px solid; */
-
+    margin-top: 2%;
 }
 
 .projectImages{
-    width: 650px;
-    height: 105%;
-    border-radius: 5px;
+    width: 1000px;
+    height:47vh;
+    border-radius: 8px;
+    /* border: 2px solid #00abf0; */
+    /* padding: 4px; */
+   
+}
+
+.project-title{
+    margin-bottom: 3%;
+}
+
+
+
+.project-tech-stack{
+    margin-top: 4%;
+    font-size: 19px;
 }
 
 .project-card > div:nth-of-type(2){
-    text-align: left;
+    text-align: left;   
+    width: 80%;
+    /* border: 1px solid; */
+
 
 }
 
 .projectSkills img{
     width: 50px;
+    border-radius: 5px;
+    
 
 }
 .projectSkills{
+    margin-top: 2%;
     display: flex;
     gap: 40px;
 }
 
-.ProjectButton > button {
-    padding: 13px 5%;
-    font-size: 18px;
-    border: none;
-    border-radius: 50px;
-    background-color:#00abf0;
-    color: black;
-    font-weight: 540;
-}
-.ProjectButton{
-    display: flex;
-    gap: 13%;
-    margin-top: 7%;
+.ProjectButton > a > button {
+    
+        padding: 10px 20px 10px 20px;
+    font-size: 19px;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    /* background-color:#00abf0; */
+    cursor: pointer;
+    color: #00abf0;
+    /* font-weight: 540; */
+
 }
 
-.ProjectButton > button > a{
+
+.ProjectButton{
+    display: flex;
+    gap: 23%;
+    margin-top: 7%;
+    
+}
+
+.ProjectButton >  a{
     text-decoration: none;
     background: none;
-    color: black;
+    color: #00abf0;
+    
 }
+
+.ProjectButton button:hover
+  {
+    background-color: #00abf0;
+    box-shadow: none;
+    color: white;
+    font-weight: 400;
+  
+  }
+
+  .ProjectButton button a:hover
+  {
+    
+    color: white;
+  
+  }

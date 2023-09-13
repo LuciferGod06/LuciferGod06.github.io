@@ -6,7 +6,8 @@ import GitHubCalendar from 'react-github-calendar';
 
 export const Github = () => {
     return (
-        <div style={{ padding: "50px 10% 0 10%" }}  >
+        <div style={{ padding: "50px 10% 0 10%" }} data-aos="fade-up"
+        data-aos-duration="3000"  >
             <h1 style={{ textAlign: 'left', marginBottom: '0px' }}>Github</h1>
             <div style={{ borderBottom: "2px solid #00abf0", width: "70px", marginBottom: "10px", marginTop: "5px", borderBottomRightRadius: "5px", borderTopRightRadius: "5px" }}  ></div>
             <p style={{ textAlign: "left", marginTop: "0px", paddingBottom: "10px" }} >What I Contribute</p>
