@@ -1,34 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.f70984d8.css",
-    "main.js": "/static/js/main.1d48e75d.js",
+    "main.js": "/static/js/main.1efc5153.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/alcazar.png": "/static/media/alcazar.8d7b56decbe431388e13.png",
     "static/media/overstock.png": "/static/media/overstock.8633ef22c482d4360d55.png",
     "static/media/Gourav_Prasad_Resume.pdf": "/static/media/Gourav_Prasad_Resume.61a4ce9ad4e3dd7da816.pdf",
-    "static/media/bitmoji1.png": "/static/media/bitmoji1.8e202f4cbfa39a26fc07.png",
-    "static/media/fronthi.png": "/static/media/fronthi.b1037335e493671f70fb.png",
     "static/media/image3.png": "/static/media/image3.ba6931e929dd1aaf96fd.png",
     "static/media/portfolio.png": "/static/media/portfolio.ff0aa2693b5d8a034cad.png",
     "static/media/snapedit_1696431035547.png": "/static/media/snapedit_1696431035547.7759b97118f8bae50378.png",
     "static/media/baliee.PNG": "/static/media/baliee.89ea85e4353b864e478f.PNG",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/whitehodd_-_Copy-removebg-preview.png": "/static/media/whitehodd_-_Copy-removebg-preview.c3cb0e3d3c112e3a8bb5.png",
-    "static/media/bitmoji.png": "/static/media/bitmoji.e500b8599eb601154bb8.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
     "static/media/java.jpg": "/static/media/java.36beb239d5ac0ef1d7b0.jpg",
+    "static/media/logo.jpg": "/static/media/logo.67aa38b6f1e5362455f0.jpg",
     "static/media/css.png": "/static/media/css.845e8eb63836bef093cf.png",
     "static/media/redux.png": "/static/media/redux.7fec6369cecd1cbd44d6.png",
     "static/media/html5.png": "/static/media/html5.4e6edfe05f07c383e94f.png",
+    "static/media/logo1.png": "/static/media/logo1.c8e96adf3e975b4faf76.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
     "index.html": "/index.html",
     "main.f70984d8.css.map": "/static/css/main.f70984d8.css.map",
-    "main.1d48e75d.js.map": "/static/js/main.1d48e75d.js.map",
+    "main.1efc5153.js.map": "/static/js/main.1efc5153.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f70984d8.css",
-    "static/js/main.1d48e75d.js"
+    "static/js/main.1efc5153.js"
   ]
 }
