@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2f34005.css",
-    "main.js": "/static/js/main.9a0fef4c.js",
+    "main.css": "/static/css/main.5d2fc16c.css",
+    "main.js": "/static/js/main.d54cfa58.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/alcazar.png": "/static/media/alcazar.8d7b56decbe431388e13.png",
     "static/media/overstock.png": "/static/media/overstock.8633ef22c482d4360d55.png",
-    "static/media/Gourav_Prasad_Resume.pdf": "/static/media/Gourav_Prasad_Resume.61a4ce9ad4e3dd7da816.pdf",
+    "static/media/Gourav-Prasad-Resume.pdf": "/static/media/Gourav-Prasad-Resume.df1e901e82933bf95fbd.pdf",
     "static/media/bitmoji1.png": "/static/media/bitmoji1.8e202f4cbfa39a26fc07.png",
     "static/media/bitmoji1 - Copy.png": "/static/media/bitmoji1 - Copy.cd090082bd9d13233e07.png",
     "static/media/image3.png": "/static/media/image3.ba6931e929dd1aaf96fd.png",
@@ -23,12 +23,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
     "index.html": "/index.html",
-    "main.b2f34005.css.map": "/static/css/main.b2f34005.css.map",
-    "main.9a0fef4c.js.map": "/static/js/main.9a0fef4c.js.map",
+    "main.5d2fc16c.css.map": "/static/css/main.5d2fc16c.css.map",
+    "main.d54cfa58.js.map": "/static/js/main.d54cfa58.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f34005.css",
-    "static/js/main.9a0fef4c.js"
+    "static/css/main.5d2fc16c.css",
+    "static/js/main.d54cfa58.js"
   ]
 }
